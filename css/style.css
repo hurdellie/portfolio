@@ -1,0 +1,36 @@
+ul {
+  float: right;
+}
+li {
+  display: inline;
+}
+
+a {
+    padding: 8px;
+    font-family: 'Roboto-Bold', sans-serif;
+    text-decoration: none;
+    color: #39BD9C;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.green {
+  color: #39BD9C;
+}
+
+.banner-text {
+  text-align: center;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 36px;
+}
+
+.my-work {
+  background-color: lightgrey;
+}
+
+.body-text {
+  font-family: 'Roboto', sans-serif;
+}
