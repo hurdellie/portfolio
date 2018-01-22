@@ -1,15 +1,10 @@
+/*
+
 ul {
   float: right;
 }
 li {
   display: inline;
-}
-
-a {
-    padding: 8px;
-    font-family: 'Roboto-Bold', sans-serif;
-    text-decoration: none;
-    color: #39BD9C;
 }
 
 h1 {
@@ -33,4 +28,77 @@ h1 {
 
 .body-text {
   font-family: 'Roboto', sans-serif;
+}
+
+*/
+
+a {
+    padding: 8px;
+    font-family: 'Roboto-Bold', sans-serif;
+    text-decoration: none;
+    color: #39BD9C;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+nav {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.nav-links {
+  grid-column: 2/-1;
+}
+
+
+.my-work {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #EDF0F4, #D6DCE5);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30px 1fr;
+  grid-gap: 20px;
+}
+
+.my-work h1 {
+  grid-column-start: 2;
+  text-align: center;
+  align-self: center;
+}
+
+.my-work img {
+  grid-row: 2/3;
+}
+
+.work-picture {
+  width: 100%;
+}
+.body-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner-text {
+  text-align: center;
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 36px;
+}
+
+.footer {
+  background: darkgrey;
 }
