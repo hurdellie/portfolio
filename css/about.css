@@ -1,0 +1,13 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.content p {
+  grid-column: 2/4;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+  padding: 20px;
+  align-self: center;
+}

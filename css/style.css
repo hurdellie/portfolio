@@ -76,22 +76,21 @@ nav {
   grid-template-columns: 1fr auto;
 }
 
+header {
+  padding-bottom: 40px;
+}
 
 .logo {
   padding-left: 10px;
 }
 
-header {
-  display: grid;
-}
+
 
 .banner-text {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 300;
-  align-self: center;
-  justify-self: center;
-  grid-column: 1/-1;
+  text-align: center;
 }
 
 label {
@@ -103,8 +102,9 @@ label {
 /*  background: linear-gradient(to bottom right, #EDF0F4, #364458); */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
   padding-bottom: 50px;
-  background: #DCDBDC;
+  background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
 }
 
 .my-work h1 {
@@ -115,11 +115,13 @@ label {
 
 .work-picture {
   width: 100%;
+
 }
 
 /* Overlay Styling */
 .content {
   position: relative;
+  margin: 10px;
 }
 
 .content .content-overlay {
@@ -170,11 +172,16 @@ label {
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .content-details p{
   color: #fff;
-  font-size: 0.8em;
+  font-size: .8em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .fadeIn-top{
@@ -185,6 +192,7 @@ label {
 .about {
   display: grid;
   grid-template-columns: auto minmax(200px, 1fr);
+  padding-bottom: 20px;
 }
 
 .about h1 {
@@ -217,6 +225,7 @@ label {
   color: white;
   padding-left: 20px;
   border-top: 2px solid grey;
+  text-align: center;
 }
 
 /* Media Queries */
