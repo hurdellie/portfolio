@@ -44,12 +44,12 @@ nav a {
     color: #39BD9C;
 }
 
-li {
+nav li {
   display: inline;
   padding: 10px;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   float: right;
 }
