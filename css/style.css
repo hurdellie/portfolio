@@ -296,7 +296,7 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  border-bottom: 1px solid blue;
+  color: blue;
 }
 
 .header .logo {

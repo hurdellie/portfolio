@@ -4,7 +4,17 @@ h2 {
   border-bottom: 2px solid #39BD9C;
 }
 
+h3 {
+  font-family: "Roboto";
+}
+
 p {
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+}
+
+ul {
   font-family: "Roboto";
   font-weight: 300;
   line-height: 30px;
@@ -15,9 +25,28 @@ p {
   grid-template-columns: repeat(12, 1fr);
 }
 
+
 .post>* {
-  grid-column: 4/10;
+  grid-column: 1/10;
 }
+
+.post>p {
+  grid-column: 3/11;
+}
+
+.post>h2 {
+  grid-column: 3/11;
+}
+
+.post>h3 {
+  grid-column: 3/11;
+}
+
+.post>ul {
+  grid-column: 3/11;
+}
+
+
 
 .post>figure {
   grid-column: 1/ -1;
@@ -26,4 +55,15 @@ p {
 
 figcaption {
   font-size: 10px;
+}
+
+.user-flow-grid {
+  grid-column: 3/11;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.user-flow-grid img {
+  width: 100%;
+  height: auto;
 }
