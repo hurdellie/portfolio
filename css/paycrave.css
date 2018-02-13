@@ -59,11 +59,33 @@ figcaption {
 
 .user-flow-grid {
   grid-column: 3/11;
-  background-color: lightgrey;
+  background-color: #e6e6e6;
   padding: 20px;
 }
 
 .user-flow-grid img {
   width: 100%;
   height: auto;
+}
+
+.mockup-grid {
+ display: grid;
+ grid-template-columns: 10px 1fr 1fr 1fr 10px;
+ grid-gap: 20px;
+}
+
+.mockup-grid img {
+  grid-column: auto;
+  justify-self: center;
+}
+
+#map {
+  grid-column: 2/3;
+}
+#menu {
+  grid-column: 3/4;
+}
+
+#details {
+  grid-column: 4/5;
 }
