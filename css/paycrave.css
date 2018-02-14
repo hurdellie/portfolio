@@ -69,23 +69,22 @@ figcaption {
 }
 
 .mockup-grid {
- display: grid;
- grid-template-columns: 10px 1fr 1fr 1fr 10px;
- grid-gap: 20px;
+  display: grid;
+
+
 }
 
 .mockup-grid img {
-  grid-column: auto;
-  justify-self: center;
+
 }
 
 #map {
-  grid-column: 2/3;
+
 }
 #menu {
-  grid-column: 3/4;
+
 }
 
 #details {
-  grid-column: 4/5;
+
 }
