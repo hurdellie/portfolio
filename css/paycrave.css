@@ -23,11 +23,12 @@ ul {
 .post {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  padding-bottom: 50px;
 }
 
 
 .post>* {
-  grid-column: 1/10;
+  grid-column: 1/12;
 }
 
 .post>p {
@@ -94,4 +95,13 @@ figcaption {
 
 #details {
 
+}
+
+.results-grid {
+  display: grid;
+  grid-column: 3/11;
+}
+iframe {
+  grid-column: 1/-1;
+  justify-self: center;
 }
