@@ -69,11 +69,23 @@ figcaption {
   height: auto;
 }
 
+.sketch-grid {
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px;
+background-color: #e6e6e6;
+padding: 20px;
+grid-column: 1/-1;
+}
+
+.sketch-grid img {
+  width: 100%;
+}
 .mockup-grid {
 
   grid-column: 3/11;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 
 
@@ -82,7 +94,7 @@ figcaption {
 
 .mockup-grid img {
  height: auto;
- width: auto;
+ width: 100%;
  justify-self: center;
 }
 
