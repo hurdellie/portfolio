@@ -28,7 +28,7 @@ ul {
 
 
 .post>* {
-  grid-column: 1/12;
+  grid-column: 1/-1;
 }
 
 .post>p {
@@ -52,6 +52,10 @@ ul {
 .post>figure {
   grid-column: 1/ -1;
   justify-self: center;
+}
+
+figure img {
+  width: 100%;
 }
 
 figcaption {
@@ -78,6 +82,21 @@ padding: 20px;
 grid-column: 1/-1;
 }
 
+@media (max-width: 700px) {
+  .sketch-grid {
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  background-color: #e6e6e6;
+  padding: 20px;
+  grid-column: 1/-1;
+  }
+  .banner-text {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+}
+
 .sketch-grid img {
   width: 100%;
 }
@@ -88,8 +107,6 @@ grid-column: 1/-1;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 
-
-
 }
 
 .mockup-grid img {
@@ -98,16 +115,7 @@ grid-column: 1/-1;
  justify-self: center;
 }
 
-#map {
 
-}
-#menu {
-
-}
-
-#details {
-
-}
 
 .results-grid {
   display: grid;

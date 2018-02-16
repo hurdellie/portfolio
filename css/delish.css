@@ -1,0 +1,56 @@
+h2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  border-bottom: 2px solid #39BD9C;
+}
+
+h3 {
+  font-family: "Roboto";
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+}
+
+ul {
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-bottom: 50px;
+}
+
+.post>* {
+  grid-column: 1/-1;
+}
+
+.post>p {
+  grid-column: 3/11;
+}
+
+.post>h2 {
+  grid-column: 3/11;
+}
+
+.post>h3 {
+  grid-column: 3/11;
+}
+
+.post>ul {
+  grid-column: 3/11;
+}
+
+article img {
+  grid-column: 3/11;
+  width: 100%;
+}
+
+.user-flow-grid {
+  background-color: #e6e6e6;
+}
