@@ -54,3 +54,15 @@ article img {
 .user-flow-grid {
   background-color: #e6e6e6;
 }
+
+.persona-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 20px;
+
+}
+
+.persona-grid img {
+  grid-column: 2/3;
+  width: 100%;
+}
