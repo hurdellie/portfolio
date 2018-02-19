@@ -50,12 +50,12 @@ ul {
 
 
 .post>figure {
-  grid-column: 1/ -1;
-  justify-self: center;
+  grid-column: 3/11;
 }
-
 figure img {
-  width: 100%;
+  width:100%;
+  justify-self: center;
+  text-align: center;
 }
 
 figcaption {

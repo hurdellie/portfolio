@@ -38,6 +38,10 @@ figure {
   grid-column: 3/8;
 }
 
+figure img {
+  width: 100%;
+}
+
 .persona-grid {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -53,4 +57,5 @@ figure {
 .results-grid {
   display: grid;
   grid-column: 3/11;
+  justify-self: center;
 }

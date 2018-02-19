@@ -75,3 +75,12 @@ iframe {
   grid-column: 1/-1;
   justify-self: center;
 }
+
+.post>figure {
+  grid-column: 3/11;
+}
+figure img {
+  width:100%;
+  justify-self: center;
+  text-align: center;
+}
