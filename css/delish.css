@@ -84,3 +84,7 @@ figure img {
   justify-self: center;
   text-align: center;
 }
+
+iframe, object, embed {
+    max-width: 100%;
+}
