@@ -198,10 +198,11 @@ label {
   font-weight: 500;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
-  text-transform: uppercase;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
+  padding: 20px;
 }
 
 .content-details p{
@@ -244,6 +245,13 @@ label {
   padding: 20px;
   align-self: center;
   padding-left: 30px;
+  font-size: 24px;
+}
+
+
+
+.work-together {
+  background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
 }
 
 /* Footer */
@@ -253,6 +261,8 @@ label {
   padding-left: 20px;
   border-top: 2px solid grey;
   text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
 }
 
 /* Media Queries */

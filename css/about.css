@@ -1,26 +1,50 @@
-.content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.content p {
-  grid-column: 2/4;
-  font-family: "Roboto";
-  font-weight: 300;
-  line-height: 30px;
-  padding: 20px;
-  align-self: center;
-}
-
-
-
-.content h2 {
+h2 {
   font-family: "Roboto";
   font-weight: 400;
   border-bottom: 2px solid #39BD9C;
-  grid-column: 1/-1;
-  justify-self: center;
 }
+
+h3 {
+  font-family: "Roboto";
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-bottom: 50px;
+}
+
+.content>* {
+  grid-column: 1/-1;
+}
+
+.content>p {
+  grid-column: 3/11;
+}
+
+.content>h2 {
+  grid-column: 3/11;
+}
+
+.content>h3 {
+  grid-column: 3/11;
+}
+
+.content>ul {
+  grid-column: 3/11;
+}
+
+
+
+
+
+
 
 figure {
   grid-column: 1/ -1;
