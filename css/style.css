@@ -94,7 +94,8 @@ header {
 }
 
 .logo {
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .learn-more {
@@ -139,9 +140,10 @@ label {
 /*  background: linear-gradient(to bottom right, #EDF0F4, #364458); */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
+  grid-gap: 20px;
   padding-bottom: 50px;
   background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
+  height: 80vh;
 }
 
 .my-work h1 {
@@ -259,7 +261,7 @@ label {
 
 
 .work-together {
-  background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
+  background: white;
 }
 
 /* Footer */

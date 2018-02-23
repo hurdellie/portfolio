@@ -25,19 +25,19 @@ p {
 }
 
 .content>p {
-  grid-column: 3/11;
+  grid-column: 4/10;
 }
 
 .content>h2 {
-  grid-column: 3/11;
+  grid-column: 4/10;
 }
 
 .content>h3 {
-  grid-column: 3/11;
+  grid-column: 4/10;
 }
 
 .content>ul {
-  grid-column: 3/11;
+  grid-column: 4/10;
 }
 
 
