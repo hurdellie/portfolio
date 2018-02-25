@@ -1,3 +1,10 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
 h2 {
   font-family: "Roboto";
   font-weight: 400;
@@ -22,7 +29,7 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  
+
 }
 
 .post {
@@ -69,13 +76,25 @@ figcaption {
 
 .user-flow-grid {
   grid-column: 3/11;
-  background-color: #e6e6e6;
+  background-color: white;
   padding: 20px;
 }
 
 .user-flow-grid img {
   width: 100%;
   height: auto;
+}
+
+.user-flow {
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+
+.graph img {
+  grid-column: 3/11;
+  height: 100%;
+  width: 500px;
+
 }
 
 .sketch-grid {
