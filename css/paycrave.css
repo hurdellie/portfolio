@@ -107,14 +107,13 @@ grid-column: 1/-1;
 }
 
 @media (max-width: 700px) {
-  .sketch-grid {
-    display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  background-color: #e6e6e6;
-  padding: 20px;
-  grid-column: 1/-1;
-  }
+
+.mockup-grid  {
+  visibility: hidden;
+  height: 0px;
+  padding-bottom: 0px;
+}
+
   .banner-text {
     font-size: 30px;
     padding-top: 50px;
@@ -130,6 +129,7 @@ grid-column: 1/-1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  padding-bottom: 50px;
 
 }
 

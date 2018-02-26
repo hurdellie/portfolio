@@ -286,6 +286,10 @@ label {
   .about {
    grid-template-columns: 1fr;
   }
+
+  .banner-text {
+    padding: 50px;
+  }
 }
 
 /* Hamburger Code */
