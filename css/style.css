@@ -61,9 +61,14 @@ h1 {
   font-size: 24px;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 .green {
   color: #39BD9C;
 }
+
 
 .wrapper {
   display: grid;
@@ -117,6 +122,7 @@ header {
  margin-bottom: 50px;
 }
 
+
 .learn-more .button:hover {
   color: white;
   background-color: #39BD9C;
@@ -139,12 +145,14 @@ label {
 .my-work {
 /*  background: linear-gradient(to bottom right, #EDF0F4, #364458); */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  padding-bottom: 50px;
-  background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
-  height: 80vh;
+  padding-top: 50px;
+
+/*
+  background: linear-gradient(to bottom right, #eef2f3, #8e9eab);*/
+
 }
+
+
 
 .my-work h1 {
   display: grid;
@@ -152,13 +160,56 @@ label {
   justify-self: center;
 }
 
-.work-picture {
-  width: 100%;
+.my-work p {
+  align-self: center;
+  justify-self: center;
 
 }
 
+.mockup {
+  display: grid;
+  grid-template-columns: auto repeat(5, 1fr) auto;
+  padding: 20px;
+}
+
+.mockup .text {
+  align-self: center;
+  justify-self: center;
+  grid-column: auto;
+}
+
+
+.my-work .work-picture {
+  width: auto;
+  height: 500px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/5;
+}
+
+#green-background {
+  background: linear-gradient(to bottom right, #eef2f3, #8e9eab);
+}
+
+.mockup-button {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  border: 2px solid black;
+  padding: 15px 40px;
+  border-radius: 4px;
+  justify-self: center;
+}
+
+.mockup-button:hover {
+  color: white;
+  background-color: #39BD9C;
+  border: 2px solid #39BD9C;
+}
+
 /* Overlay Styling */
-.content {
+/* .content {
   position: relative;
   margin: ;
 }
@@ -226,6 +277,7 @@ label {
   top: 20%;
 }
 
+*/
 /* About Section */
 .about {
   display: grid;
@@ -280,7 +332,30 @@ label {
 @media (max-width: 700px) {
 
   .my-work {
+    display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .mockup {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  .mockup .text {
+grid-column: 1/2;
+
+text-align: center;
+  }
+
+
+
+  .my-work .work-picture {
+    width: auto;
+    height: 300px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
   }
 
   .about {
