@@ -109,9 +109,19 @@ grid-column: 1/-1;
 @media (max-width: 700px) {
 
 .mockup-grid  {
+
+}
+
+#map-sketch, #menu-sketch, #map-wireframe, #menu-wireframe, #map-mockup, #menu-mockup  {
   visibility: hidden;
   height: 0px;
-  padding-bottom: 0px;
+}
+
+
+
+#truck-finder-sketch, #truck-filter-wireframe, #truck-filter-mockup {
+  grid-column: 1/-1;
+  width: 100%;
 }
 
   .banner-text {
