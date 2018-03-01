@@ -40,13 +40,22 @@ p {
   grid-column: 4/10;
 }
 
-
+.content>figure {
+  grid-column: 1/-1;
+}
 
 
 
 
 
 figure {
-  grid-column: 1/ -1;
+
   justify-self: center;
+}
+
+@media (max-width: 700px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
