@@ -87,6 +87,11 @@ ul {
   height: 0px;
 }
 
+.banner-text {
+
+    line-height: 50px;
+
+}
 }
 
 .user-flow-grid {
