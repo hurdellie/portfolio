@@ -71,7 +71,7 @@ article img {
 #survey-results {
   display: none;
 }
- 
+
 }
 
 .user-flow-grid {
@@ -92,6 +92,13 @@ article img {
   padding: 10px;
 }
 
+.strengths {
+  background-color: #D6FFB7;
+}
+
+.weaknesses {
+  background-color: #F26387
+}
 .persona-grid {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
