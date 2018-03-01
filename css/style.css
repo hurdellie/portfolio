@@ -171,15 +171,20 @@ label {
 .mockup {
   display: grid;
   grid-template-columns: auto repeat(5, 1fr) auto;
-  padding: 20px;
+  padding: 50px;
+
 }
 
 .mockup .text {
   align-self: center;
-  justify-self: center;
+  justify-self: left;
   grid-column: auto;
+  grid-column: 5/-1;
 }
 
+.project-name {
+  font-size: 24px;
+}
 
 .my-work .work-picture {
   width: auto;
@@ -202,7 +207,8 @@ label {
   border: 2px solid black;
   padding: 15px 40px;
   border-radius: 4px;
-  justify-self: center;
+  justify-self: left;
+  margin-top:30px;
 }
 
 .mockup-button:hover {
@@ -347,11 +353,14 @@ label {
 
   .mockup .text {
 grid-column: 1/2;
-
+justify-self: center;
 text-align: center;
+
   }
 
-
+  .mockup-button {
+    justify-self: center;
+  }
 
   .my-work .work-picture {
     width: auto;
