@@ -62,6 +62,18 @@ article img {
   width: 100%;
 }
 
+.usually-hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+@media (max-width: 700px) {
+#survey-results {
+  display: none;
+}
+ 
+}
+
 .user-flow-grid {
   grid-column: 3/11;
   background-color: white;
@@ -72,7 +84,7 @@ article img {
 
   height: auto;
   width: 100%;
-  
+
 }
 
 .user-flow {
