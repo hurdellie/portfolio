@@ -38,7 +38,11 @@ ul {
   padding-bottom: 50px;
 }
 
+.text-container {
+grid-column: 4/10;
+}
 
+/*
 .post>* {
   grid-column: 1/-1;
 }
@@ -59,11 +63,11 @@ ul {
   grid-column: 3/11;
 }
 
-
-
 .post>figure {
   grid-column: 3/11;
 }
+
+*/
 figure img {
   width:100%;
   justify-self: center;
@@ -108,9 +112,10 @@ grid-column: 1/-1;
 
 @media (max-width: 700px) {
 
-.mockup-grid  {
-
-}
+  .text-container {
+  grid-column: 1/-1;
+  padding: 10px;
+  }
 
 #map-sketch, #menu-sketch, #map-wireframe, #menu-wireframe, #map-mockup, #menu-mockup  {
   visibility: hidden;
