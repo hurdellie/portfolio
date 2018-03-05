@@ -38,6 +38,12 @@ ul {
   padding-bottom: 50px;
 }
 
+.text-container {
+grid-column: 4/10;
+}
+
+/*
+
 .post>* {
   grid-column: 1/-1;
 }
@@ -58,6 +64,7 @@ ul {
   grid-column: 3/11;
 }
 
+*/
 /* article img {
   grid-column: 3/11;
   width: 100%;
@@ -75,6 +82,11 @@ ul {
 @media (max-width: 700px) {
 #survey-results {
   display: none;
+}
+
+.text-container {
+grid-column: 1/-1;
+padding: 10px;
 }
 
 .invisible {
