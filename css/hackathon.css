@@ -41,6 +41,11 @@ ul {
   padding-bottom: 50px;
 }
 
+.text-container {
+grid-column: 4/10;
+}
+
+/*
 .post>* {
   grid-column: 1/-1;
 }
@@ -48,6 +53,8 @@ ul {
 .post>p {
   grid-column: 3/11;
 }
+
+*/
 
 figure {
   grid-column: 3/8;
@@ -98,6 +105,11 @@ iframe, object, embed {
 }
 
 @media (max-width: 700px) {
+  .text-container {
+  grid-column: 1/-1;
+  padding: 10px;
+  }
+  
   .before-after-grid {
     display: grid;
     grid-template-columns: 1fr;
