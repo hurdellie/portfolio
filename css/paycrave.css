@@ -42,6 +42,10 @@ ul {
 grid-column: 4/10;
 }
 
+.img-container {
+  grid-column: 10/10;
+}
+
 /*
 .post>* {
   grid-column: 1/-1;
