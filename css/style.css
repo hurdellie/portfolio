@@ -172,7 +172,7 @@ label {
 .mockup {
   display: grid;
   grid-template-columns: auto repeat(5, 1fr) auto;
-  padding: 50px;
+
 
 }
 
@@ -189,7 +189,7 @@ label {
 
 .my-work .work-picture {
   width: auto;
-  height: 500px;
+  height: 700px;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -497,8 +497,16 @@ a {
 }
 
 /* 48em = 768px */
-
+@media (max-width: 950px) {
+  .my-work .work-picture {
+    width: auto;
+    height: 400px;
+  }
+  .mockup {
+padding-bottom: 50px; }
+}
 @media (min-width: 48em) {
+
   .header li {
     float: left;
   }
