@@ -32,6 +32,22 @@ ul {
   font-size: 18px;
 }
 
+/*
+.paycrave-logo {
+  height: 40px;
+  width: auto;
+ text-align: center;
+} */
+
+.sub-text {
+  text-align: center;
+}
+
+.header-pic {
+  width: ;
+  height: 500px;
+}
+
 .post {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
