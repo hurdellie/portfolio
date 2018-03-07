@@ -137,6 +137,12 @@ grid-column: 1/-1;
   padding: 10px;
   }
 
+  .disappear {
+    visibility: hidden;
+    height: 0px;
+    display: none;
+  }
+
 #map-sketch, #menu-sketch, #map-wireframe, #menu-wireframe, #map-mockup, #menu-mockup  {
   visibility: hidden;
   height: 0px;
