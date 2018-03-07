@@ -48,6 +48,7 @@ ul {
   height: 500px;
 }
 
+
 .post {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -58,9 +59,14 @@ ul {
 grid-column: 4/10;
 }
 
+.full-width-container {
+  grid-column: 3/11;
+}
+
+/*
 .img-container {
   grid-column: 10/10;
-}
+} */
 
 /*
 .post>* {
@@ -114,11 +120,10 @@ figcaption {
   padding: 10px;
 }
 
-.graph img {
+ .graph  {
   grid-column: 3/11;
-  height: 100%;
-  width: 500px;
 
+  border: #e6e6e6 solid 2px;
 }
 
 .sketch-grid {
@@ -131,6 +136,11 @@ grid-column: 1/-1;
 }
 
 @media (max-width: 700px) {
+
+  .full-width-container {
+    grid-column: 1/-1;
+    padding: 10px;
+  }
 
   .text-container {
   grid-column: 1/-1;
@@ -163,6 +173,7 @@ grid-column: 1/-1;
     /*font-size: 30px;
     padding-top: 50px;*/
     line-height: 50px;
+    margin-bottom: 0;
   }
 }
 
