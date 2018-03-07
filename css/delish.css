@@ -45,6 +45,10 @@ ul {
 grid-column: 4/10;
 }
 
+.full-width-container {
+  grid-column: 3/11;
+}
+
 /*
 
 .post>* {
@@ -80,33 +84,6 @@ grid-column: 4/10;
 
 .invisible {
   height: 0px;
-}
-
-@media (max-width: 700px) {
-#survey-results {
-  display: none;
-}
-
-.text-container {
-grid-column: 1/-1;
-padding: 10px;
-}
-
-.invisible {
-  height: auto;
-  width: 50px;
-}
-
-.disappear {
-  display: none;
-  height: 0px;
-}
-
-.banner-text {
-
-    line-height: 50px;
-
-}
 }
 
 .user-flow-grid {
@@ -152,6 +129,8 @@ padding: 10px;
 .weaknesses {
   background-color: #F26387
 }
+
+/*
 .persona-grid {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -163,21 +142,16 @@ padding: 10px;
 .persona-grid img {
   grid-column: 2/3;
   width: 100%;
-}
+} */
 
 .results-grid {
   display: grid;
   grid-column: 3/11;
 }
-iframe {
-  grid-column: 1/-1;
-  justify-self: center;
-}
 
-.post>figure {
-  grid-column: 3/11;
-}
-figure img {
+
+
+.post img {
   width:100%;
   justify-self: center;
   text-align: center;
@@ -185,4 +159,36 @@ figure img {
 
 iframe, object, embed {
     max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  .full-width-container {
+    grid-column: 1/-1;
+    padding: 10px;
+  }
+  
+#survey-results {
+  display: none;
+}
+
+.text-container {
+grid-column: 1/-1;
+padding: 10px;
+}
+
+.invisible {
+  height: auto;
+  width: 50px;
+}
+
+.disappear {
+  display: none;
+  height: 0px;
+}
+
+.banner-text {
+
+    line-height: 50px;
+
+}
 }
