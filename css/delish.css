@@ -32,6 +32,9 @@ ul {
   font-size: 18px;
 }
 
+.sub-text {
+  text-align: center;
+}
 .post {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
