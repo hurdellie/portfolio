@@ -166,7 +166,7 @@ iframe, object, embed {
     grid-column: 1/-1;
     padding: 10px;
   }
-  
+
 #survey-results {
   display: none;
 }
@@ -189,6 +189,6 @@ padding: 10px;
 .banner-text {
 
     line-height: 50px;
-
+    margin: 0px;
 }
 }

@@ -20,6 +20,12 @@ p {
   padding-bottom: 50px;
 }
 
+.text-container {
+grid-column: 4/10;
+}
+
+/*
+
 .content>* {
   grid-column: 1/-1;
 }
@@ -40,14 +46,16 @@ p {
   grid-column: 4/10;
 }
 
+*/
 
-.content>figure {
+
+figure {
   grid-column: 3/11;
 }
 figure img {
   width:100%;
   justify-self: center;
-  text-align: center;
+
 }
 
 @media (max-width: 700px) {
@@ -55,5 +63,15 @@ figure img {
     display: grid;
     grid-template-columns: 1fr;
     padding: 30px;
+  }
+
+  
+
+  figure img {
+    grid-column: 1/-1;
+  }
+
+  .banner-text {
+    margin: 0px;
   }
 }
