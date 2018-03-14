@@ -72,6 +72,60 @@ ul {
    border: 2px solid #39BD9C;
  }
 
+ .body-button  {
+   display: grid;
+   grid-template-columns: 1fr;
+ }
+
+ .body-button .button {
+   text-decoration: none;
+   text-align: center;
+   font-family: 'Roboto';
+   font-weight: 400;
+   border: 2px solid black;
+   padding: 15px 40px;
+   border-radius: 4px;
+   justify-self: center;
+   grid-column: 1/-1;
+   margin-bottom: 10px;
+   margin-top: 10px;
+
+  }
+
+
+  .body-button .button:hover {
+    color: white;
+    background-color: #39BD9C;
+    border: 2px solid #39BD9C;
+  }
+
+  .mockups-button  {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mockups-button .button {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    border: 2px solid black;
+    padding: 15px 40px;
+    border-radius: 4px;
+    justify-self: right;
+    grid-column: 1/-1;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+
+   }
+
+
+   .mockups-button .button:hover {
+     color: white;
+     background-color: #39BD9C;
+     border: 2px solid #39BD9C;
+   }
 
 .post {
   display: grid;
@@ -165,7 +219,7 @@ grid-column: 4/10;
 }
 
 .weaknesses {
-  background-color: #F26387
+  background-color: #ffbaba;
 }
 
 /*
@@ -195,14 +249,21 @@ grid-column: 4/10;
   text-align: center;
 }
 
+iframe {
+  grid-column: 1/-1;
+
+  width: 100%;
+}
+
 iframe, object, embed {
     max-width: 100%;
+
 }
 
 @media (max-width: 700px) {
   .full-width-container {
     grid-column: 1/-1;
-    padding: 10px;
+    padding: 15px;
   }
 
 #survey-results {
@@ -211,7 +272,7 @@ iframe, object, embed {
 
 .text-container {
 grid-column: 1/-1;
-padding: 10px;
+padding: 15px;
 }
 
 .invisible {
@@ -256,4 +317,20 @@ padding: 10px;
   margin-top: 10px;
 
  }
+
+ .body-button .button {
+   text-decoration: none;
+   text-align: center;
+   font-family: 'Roboto';
+   font-weight: 400;
+   border: 2px solid black;
+   padding: 15px 40px;
+   border-radius: 4px;
+   justify-self: center;
+   grid-column: 1/-1;
+   margin-bottom: 10px;
+   margin-top: 0px;
+
+  }
+
 }
