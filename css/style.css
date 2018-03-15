@@ -506,11 +506,26 @@ a {
   }
   .mockup {
 padding-bottom: 50px; }
+
+.project-name {
+  margin-top: 0px;
+}
+.text {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.learn-more .mockup-button {
+  margin-top: 10px;
+}
+
+.big-image {
+  margin-bottom: -15px;
+}
 }
 
 
 @media (min-width: 48em) {
-
 
   .header li {
     float: left;
