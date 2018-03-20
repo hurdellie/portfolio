@@ -266,6 +266,10 @@ iframe, object, embed {
     padding: 15px;
   }
 
+  figure {
+    margin: 0px;
+  }
+
 #survey-results {
   display: none;
 }
