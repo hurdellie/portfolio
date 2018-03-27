@@ -1,4 +1,4 @@
 # portfolio
 Personal Portfolio
 
-![Portfolio Homepage](portfolio/images/elliehurd.png)
+![Portfolio Homepage](images/elliehurd.png)
