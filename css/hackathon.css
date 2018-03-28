@@ -15,7 +15,7 @@ h3 {
   font-family: "Roboto";
 }
 
-p {
+ p {
   font-family: "Roboto";
   font-weight: 300;
   line-height: 30px;
@@ -137,6 +137,10 @@ grid-column: 4/10;
 }
 
 */
+
+.footer {
+  height: 100%;
+}
 
 figure {
   grid-column: 3/8;
